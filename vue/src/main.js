@@ -6,6 +6,7 @@ import App from '@/App'
 import router from '@/router'
 import store from '@/store'
 // import lang from '@/lang'
+// test
 
 // Vue.use(VeeValidate)
 Vue.config.productionTip = false
