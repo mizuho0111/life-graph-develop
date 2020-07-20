@@ -6,7 +6,6 @@ import App from '@/App'
 import router from '@/router'
 import store from '@/store'
 // import lang from '@/lang'
-// test
 
 // Vue.use(VeeValidate)
 Vue.config.productionTip = false
@@ -14,9 +13,8 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   components: { App },
-  el: '#vue-root',
-  render: h => h(router),
-  // i18n: lang,
+  render: h => h(App),
+  // i318n: lang,
   router,
   store,
   template: '<App/>'
