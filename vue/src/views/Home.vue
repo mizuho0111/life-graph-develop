@@ -10,11 +10,10 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
+  // name: 'Home',
   components: {
     HelloWorld
   },
-
   created () {
     this.$store.dispatch('fetchLogin')
   }
